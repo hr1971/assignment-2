@@ -42,7 +42,21 @@
 }
 
 /* banner section */
+
+
 .banner-section{
     height: 461px;
     margin-top: 120px;
+    /* border: 1px solid ; */
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: flex-end;
+
+}
+.banner-content{
+    margin-bottom: 5px;
+}
+.banner-title{
+    margin-bottom: 13px;
+    
 }
