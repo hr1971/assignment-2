@@ -22,6 +22,8 @@
 
 
 .nav-title{
+    font-weight: 700;
+    font-size: 30px;
     color: #E95A08;
 }
 .nav-items{
@@ -30,6 +32,7 @@
 }
 .navbar{
     justify-content: space-between;
+    align-items: center;
 }
 .nav-items :nth-child(2),
 :nth-child(3){
@@ -40,6 +43,7 @@
     height: 72px;
     margin-top: 30px;
 }
+
 
 /* banner section */
 
@@ -53,10 +57,117 @@
     align-items: flex-end;
 
 }
+.banner-section img{
+    height: 355px;
+}
 .banner-content{
     margin-bottom: 5px;
 }
 .banner-title{
+    font-weight: bold;
+    font-size: 55px;
     margin-bottom: 13px;
+    
+}
+.banner-description{
+    font-size: 20px;
+    color: #00000080;
+}
+
+/* main section */
+main{
+    margin-top: 120px;
+}
+.main{
+    text-align: center;
+}
+.main-title{
+
+}
+.main-description{
+    width: 888px;
+    height: 54px;
+    color: #00000080;
+    margin-left: 126px;
+    margin-right: 126px;
+    margin-top: 15px;
+}
+
+
+/* Responsive for Mobile device */
+
+@media (max-width:761px) {
+
+    
+.nav-title{
+    font-weight: 700;
+    font-size: 23px;
+    color: #E95A08;
+}
+.item{
+    display: none;
+}
+
+
+.navbar{
+    width: 365px;
+    height: 38px;
+    margin-top: 30px;
+    /* margin-right: 16px; */
+    margin-left: 16px;
+}
+
+/* banner section */
+
+    
+.banner-section{
+    
+    flex-direction: column-reverse;
+
+}
+.display-flex{
+    flex-wrap: wrap;
+}
+.banner-section img{
+    width: 100%;
+    height: 245px;
+}
+.banner-content{
+    margin: 28px 16px  16px;
+
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 13px;
+    
+}
+.banner-description{
+    font-size: 14px;
+    color: #00000080;
+}
+
+
+/* main section */
+main{
+    margin-top: 65px;
+}
+.main{
+    /* text-align: center; */
+}
+.main-description{
+    font-weight: 400;
+    font-size: 14px;
+    width: 336px;
+    height: 68px;
+    color: #00000080;
+    margin: 16px 28px 28px 28px;
+}
+.main-title{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
     
 }
