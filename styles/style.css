@@ -255,11 +255,12 @@ main{
 /* join section */
 
 .join-section{
-background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/news-letter-bg.png');
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/news-letter-bg.png');
 width: 1440px;
 height: 533px;
 margin: auto;
 text-align: center;
+margin-bottom: 50px;
 }
 .join-title{
     font-weight: bold;
@@ -290,6 +291,56 @@ btn{
     font-size: 16px;  
 }
 
+/* fotter section */
+
+.footer{
+    width: 1120px;
+    height: 248px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footer-sub{
+    width: 360px;
+    height: 180px;
+}
+
+.footer-name{
+    font-weight: bold;
+    font-size: 30px;
+    color: #E95A08;
+    margin-bottom: 15px;
+}
+.footer-description{
+    font-size: 22px;
+    color: #00000080;
+}
+
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    gap: 30px;
+    list-style: none;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.social-links{
+    display: flex;
+    gap: 25px;
+    
+}
+.social-links :nth-child(1){
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+.social{
+    width: 36px;
+    height: 36px;
+    margin-top: 5px;
+}
+
 
 /* ================================Responsive for Mobile device ===================================*/
 
@@ -310,7 +361,6 @@ btn{
     width: 365px;
     height: 38px;
     margin-top: 30px;
-    /* margin-right: 16px; */
     margin-left: 16px;
 }
 
@@ -417,6 +467,7 @@ btn{
     height: 396px;
     margin-right: 10px;
     margin-left: 15x;
+    margin-top: -50px;
 }
 .lover-title{
     font-weight: bold;
@@ -470,7 +521,6 @@ btn{
 }
 
 .offers-section{
-    /* margin-bottom: 50px; */
     height: 423px;
   
 }
@@ -544,7 +594,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('
 width: 100%;
 background-size: cover;
 background-position: center;
-position: absolute;
+position: absolute; 
 height: 275px;
 text-align: center;
 margin-top: 150px;
@@ -573,6 +623,60 @@ btn{
     font-weight: 600;
     font-size: 16px;  
 }
+
+/* fotter section */
+
+.footer{
+    width: 400px;
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 550px;
+}
+
+.footer-sub{
+    width: 360px;
+    height: 173px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.footer-name{
+    font-weight: bold;
+    font-size: 23px;
+    color: #E95A08;
+}
+.footer-description{
+    font-size: 16px;
+    color: #00000080;
+}
+
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: -50px;
+    list-style: none;
+    margin-left: 10px;
+}
+.social-links{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10px;
+    /* gap: 25px; */
+    
+}
+.social-links :nth-child(1){
+    width: 22px;
+    height: 22px;
+
+}
+.social{
+    width: 30px;
+    height: 30px;
+
+}
+
 
 
 
