@@ -418,7 +418,7 @@ btn{
     grid-template-columns: repeat(2,1fr);
     gap: 15px;
     margin-top: 50px;
-    margin-right: 1px; 
+    margin-right: 10px; 
     margin-left: 10px;
 }
 
@@ -465,9 +465,9 @@ btn{
 
 /* ===plants lover section=== */
 .flower-store{
-    width: 100%;
+    width: 358px;
     height: 396px;
-    margin-right: 0px;
+    margin-right: 17px;
     margin-left: 15x;
     margin-top: -50px;
 }
@@ -528,12 +528,12 @@ btn{
 }
 .offers-1{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-bloom.png');
-    width: 400px;
+    width: 366px;
     height: 206px;
     color: white;
     text-align: center;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-right: 18px;
     margin-left: 16px;
 }
 .offer-title{
@@ -551,11 +551,11 @@ btn{
 
 .offers-2{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-ana.png');
-    width: 400px;
+    width: 366px;
     height: 206px;
     color: white;
     text-align: center;
-     margin-right: 10px;
+     margin-right: 18px;
     margin-left: 16px;
     
 }
