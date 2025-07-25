@@ -26,6 +26,8 @@
     font-size: 30px;
     color: #E95A08;
 }
+.logo{
+}
 .nav-items{
     list-style: none;
     gap: 48px;
@@ -358,7 +360,7 @@ btn{
 
 
 .navbar{
-    width: 365px;
+    width: 380px;
     height: 38px;
     margin-top: 30px;
     margin-left: 16px;
@@ -380,7 +382,7 @@ btn{
     height: 245px;
 }
 .banner-content{
-    margin: 28px 16px  16px;
+    margin: 28px 10px  0px;
 
 }
 .banner-title{
@@ -414,10 +416,10 @@ btn{
     flex: 1;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 20px;
+    gap: 15px;
     margin-top: 50px;
-    margin-right: 14px; 
-    margin-left: 14px;
+    margin-right: 1px; 
+    margin-left: 10px;
 }
 
 .plants-name{
@@ -463,9 +465,9 @@ btn{
 
 /* ===plants lover section=== */
 .flower-store{
-    width: 400px;
+    width: 100%;
     height: 396px;
-    margin-right: 10px;
+    margin-right: 0px;
     margin-left: 15x;
     margin-top: -50px;
 }
@@ -564,7 +566,7 @@ btn{
 }
 .offers-3{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-zabo.png');
-    width: 400px;
+    width: 420px;
     height: 190px;
     color: white;
     text-align: center;
@@ -591,13 +593,15 @@ btn{
 
 .join-section{
 background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/news-letter-bg.png');
-width: 100%;
+width: 420px;
 background-size: cover;
 background-position: center;
 position: absolute; 
 height: 275px;
 text-align: center;
 margin-top: 150px;
+margin-right: 0;
+margin-left: 3px;
 }
 .join-title{
     font-weight: bold;
@@ -618,9 +622,9 @@ margin-top: 150px;
   
 }
 btn{
-    width: 103px;
+    width: 100px;
     height: 50px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;  
 }
 
