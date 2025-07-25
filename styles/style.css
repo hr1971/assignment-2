@@ -161,8 +161,8 @@ main{
     height: 597px;
     gap: 30px;
     margin-top: 200px;
-    border: 1px solid;
-    /* margin-bottom: 133px; */
+    /* border: 1px solid; */
+    margin-bottom: 133px;
 
 }
 
@@ -171,6 +171,85 @@ main{
     height: 250px;
     margin-left: -200px;
     margin-top: -110px;
+}
+
+/* latest deals section */
+
+.latest-title{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.latest-description{
+    font-weight: 400;
+    font-size: 22px;
+    color: #00000080;
+    margin: 0 276px 0 276px;
+     text-align: center;
+     margin-bottom: 115px;
+    
+}
+
+.offers-section{
+    margin-bottom: 100px;
+    height: 423px;
+  
+}
+.offers-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-bloom.png');
+    width: 366px;
+    height: 206px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.offer-title{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 65px 47px 9px 49px;
+}
+.offer-sub-title{
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+
+}
+
+.offers-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-ana.png');
+    width: 366px;
+    height: 206px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.section-sub{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.offers-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-zabo.png');
+    width: 753px;
+    height: 423px;
+    color: white;
+    text-align: center;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.offers-3 .offer-title{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 150px;
+}
+.offer-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: underline;
+
 }
 
 
@@ -297,10 +376,10 @@ main{
 
 /* ===plants lover section=== */
 .flower-store{
-    width: 365px;
+    width: 400px;
     height: 396px;
     margin-right: 10px;
-    margin-left: 17x;
+    margin-left: 15x;
 }
 .lover-title{
     font-weight: bold;
@@ -327,13 +406,97 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-
 }
 
 
 .trust{
     display: none;
+}
+
+
+/* latest deals section */
+
+.latest-title{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.latest-description{
+    font-weight: 400;
+    font-size: 14px;
+    color: #00000080;
+    margin: 0 28px 0 28px;
+     text-align: center;
+     margin-bottom: 115px;
+    
+}
+
+.offers-section{
+    /* margin-bottom: 100px; */
+    height: 423px;
+  
+}
+.offers-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-bloom.png');
+    width: 400px;
+    height: 206px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 16px;
+}
+.offer-title{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 65px 47px 9px 49px;
+}
+.offer-sub-title{
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+
+}
+
+.offers-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-ana.png');
+    width: 400px;
+    height: 206px;
+    color: white;
+    text-align: center;
+     margin-right: 10px;
+    margin-left: 16px;
+    
+}
+.section-sub{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.offers-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-zabo.png');
+    width: 400px;
+    height: 190px;
+    color: white;
+    text-align: center;
+     margin-right: 10px;
+    margin-left: 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.offers-3 .offer-title{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 64px 42px 10px 49px;
+}
+.offer-sub-title{
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+
 }
 
 
